@@ -43,10 +43,14 @@ header {
 }
 /* MAIN */
 
+
+    /* PRIMA SEZIONE */
+
 .section-1 {
     background-color: #b4d0e7;
     width: 100vw;
     height: 750px;
+    margin-bottom: 60px;
 }
 h1 {
     /* text-align: center; */
@@ -95,6 +99,9 @@ h1 {
     padding: 8px;
     margin: 30px 0;
 }
+.extra-padding {
+    padding: 9px 50px;
+}
 .div-jumbo1 {
     /* background-color: blue; */
     width: 195px;
@@ -107,8 +114,16 @@ h1 {
     text-align: initial;
     margin-top: 140px;
 }
+
+    /* SECONDA SEZIONE */
+
 h2 {
     padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.checkbox {
+
 }
 #jumbo {
    width: 100%;
@@ -121,7 +136,9 @@ h2 {
 .check-abbonamento {
     width: 25%;
     height: 50px;
-    background-color: aqua;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    /* background-color: aqua; */
 }
 .container-2 {
     display: flex;
@@ -130,8 +147,59 @@ h2 {
 }
 .abbonamenti {
     width: 30%;
-    height: 500px;
-    background-color: aquamarine;
+    height: 800px;
+    /* background-color: aquamarine; */
+    border: 1.5px solid #d0d0d3;
+}
+.piano-abbonamento {
+    border-bottom: 1.5px solid #d0d0d3;
+    text-align: center;
+    padding: 8px 0;
+}
+.text-livello {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.stacco-icon {
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    
+}
+.text-mese {
+    color: #8f8d8d;
+}
+.allineamento {
+    padding-left: 25px;
+    padding-right: 6px;
+}
+.stacco-down {
+    margin-bottom: 40px;
+}
+.stacco-up {
+    margin-top: 40px;
+}
+.acquista-ora {
+    color: blue;
+}
+.riga-grigia {
+    border-bottom: 1.5px solid #d0d0d3;
+    width: 60px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.stacco-pre-li {
+    margin-bottom: 20px;
+}
+.fa-check {
+    color: #0061ff;
+}
+.stacco-colonne-down {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 40px;
 }
 .enterprise {
     width: 100%;
