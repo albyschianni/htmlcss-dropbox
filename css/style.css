@@ -2,13 +2,16 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* HEADER */
 
 header {
-    background-color: blueviolet;
-    height: 100px;
+    /* background-color: blueviolet; */
+    height: 60px;
+    font-size: 14px;
 }
 .container-head {
     display: flex;
@@ -17,45 +20,99 @@ header {
 }
 
 .head-item {
-    width: 25%;
-    height: 80px;
-
-    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    height: 60px;
+    align-items: center;
+}
+.head-item2 {
+    /* margin-right: -135px; */
+    display: flex;
+    justify-content: flex-end;
+}
+.item {
+    padding-right: 30px;
+}
+#inizia {
+    background-color: #0061ff;
+    color: white;
+    height: 28px;
+    padding: 5px 8px;
+    text-align: center;
 }
 /* MAIN */
 
 .section-1 {
-    background-color: bisque;
+    background-color: #b4d0e7;
     width: 100vw;
-    height: 500px;
+    height: 750px;
 }
 h1 {
-    text-align: center;
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 70%;
+    font-size: 75px;
+    padding-top: 40px;
 }
 .container-1 {
     display: flex;
     text-align: center;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     width: 70%;
     height: 300px;
+    padding-top: 30px;
 
-    background-color: brown;
+    /* background-color: brown; */
 }
 .text-1 {
-    width: 200px;
+    width: 25%;
     height: 300px;
-
-    background-color: blue;
+    /* background-color: blue; */
+}
+#tex-sec1 {
+    font-size: 15px;
+    text-align: initial;
 }
 .img-1 {
-    width: 400px;
-    background-color: aquamarine;
+    width: 75%;
+    /* background-color: aquamarine; */
     /* height: 250px; */
 }
-
+#container-h-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.tag-inizia {
+    background-color: #0061ff;
+    width: 195px;
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 30px 0;
+}
+.div-jumbo1 {
+    /* background-color: blue; */
+    width: 195px;
+    height: 35px;
+    font-size: 14px;
+}
+.div-jumbo2 {
+    width: 195px;
+    height: 35px;
+    text-align: initial;
+    margin-top: 140px;
+}
+h2 {
+    padding-top: 50px;
+}
 #jumbo {
-   width: 400px;
+   width: 100%;
+   margin-left: -25px;
 }
 .section-2 {
     width: 60%;
