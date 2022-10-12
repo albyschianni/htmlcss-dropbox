@@ -12,6 +12,12 @@ header {
     /* background-color: blueviolet; */
     height: 60px;
     font-size: 14px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 .container-head {
     display: flex;
@@ -43,13 +49,16 @@ header {
 }
 /* MAIN */
 
+main {
+    margin-top: 60px;
+}
 
     /* PRIMA SEZIONE */
 
 .section-1 {
     background-color: #b4d0e7;
     width: 100vw;
-    height: 750px;
+    min-height: 750px;
     margin-bottom: 60px;
 }
 h1 {
@@ -521,14 +530,50 @@ hr {
     background-color: black;
 }
 .container-footer {
-    width: 80%;
-    height: 600px;
+    width: 67%;
+    min-height: 300px;
     margin: 0 auto;
     display: flex;
 }
 .colonne-foot {
     width: calc(100% / 5);
-    height: 400px;
-    background-color: brown;
-    border: 1px solid white;
+    height: 200px;
+    /* background-color: brown; */
+    /* border: 1px solid white; */
+    margin-top: 60px;
 }
+.footer-h3 {
+    color: white;
+    padding-left: 40px;
+    font-size: 21px;
+}
+.list-item {
+    list-style: none;
+    line-height: 28px;
+    
+}
+.text-footer {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.under-footer{
+    width: 63%;
+    margin: 0 auto;
+}
+.linea-footer {
+    border: 1px solid white;
+    width: 130px;
+}
+.simbolo-mondo {
+    height: 100px;
+    color: white;
+    font-size: 12.5px;
+    margin-top: 30px;
+}
+.fa-caret-up {
+    color: white;
+}
+/* .fa-globe-americas {
+    color: white;
+} */
